@@ -1,0 +1,26 @@
+<!-- PWA Manifest -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0078D7">
+
+<!-- iOS Safari Meta-Tags -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="SDV Quiz">
+
+<!-- iOS Touch Icons (alle Größen) -->
+<link rel="apple-touch-icon" sizes="72x72" href="icons/icon-72x72.png">
+<link rel="apple-touch-icon" sizes="96x96" href="icons/icon-96x96.png">
+<!-- ... weitere Größen ... -->
+<link rel="apple-touch-icon" sizes="180x180" href="icons/icon-180x180.png">
+
+<!-- iOS Splash Screens (8 Geräte-Formate) -->
+<link rel="apple-touch-startup-image" href="splash/splash-1125x2436.png" media="...">
+
+<!-- Service Worker Registrierung -->
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+      navigator.serviceWorker.register('sw.js');
+    });
+  }
+</script>

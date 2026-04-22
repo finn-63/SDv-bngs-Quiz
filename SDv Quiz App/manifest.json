@@ -1,0 +1,13 @@
+{
+  "name": "SDV Quiz",
+  "short_name": "SDV Quiz",
+  "description": "Ein interaktives Logik-Quiz",
+  "start_url": "/SDvQuiz4.html",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#0078D7",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "de-DE",
+  "icons": []
+}
